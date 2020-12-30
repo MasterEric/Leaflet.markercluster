@@ -443,6 +443,7 @@ L.MarkerClusterGroup.include({
 	_unspiderfyWrapper: function () {
 		/// <summary>_unspiderfy but passes no arguments</summary>
 		this._unspiderfy();
+		this.refreshClusters();
 	},
 
 	_unspiderfy: function (zoomDetails) {
